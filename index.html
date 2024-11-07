@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/cv.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Portfólio - Diogo Madeira dos Santos</title>
+    <style>
+        /* Definindo as cores principais */
+        body {
+            background-color: #07131A;
+            color: #e4e5e9; /* Cor de texto mais clara */
+        }
+        .navbar {
+            background-color: #4962E0;
+            padding-left: 100px; /* Margem esquerda para a barra */
+        }
+        .navbar a {
+            color: #e4e5e9 !important; /* Cor do texto no navbar */
+        }
+        /* Ajustando a largura do menu em dispositivos móveis */
+        .navbar-collapse {
+            width: 250px; /* Largura customizada do menu */
+        }
+        .navbar-nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 10px; /* Adicionando margem à esquerda */
+            margin-right: 10px; /* Adicionando margem à direita */
+        }
+        .navbar-toggler {
+            border-color: #e4e5e9; /* Cor do botão hamburger */
+        }
+        .dropdown-menu {
+            background-color: #4962E0;
+            color: #e4e5e9;
+        }
+        .nav-item {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+<!-- Barra de navegação -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Diogo Madeira</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre Mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projetos">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre" class="container py-5">
+        <h2 class="section-title">Sobre Mim</h2>
+        <p>22 anos - Desenvolvedor. Busco uma oportunidade profissional na área de Tecnologia da Informação, onde
+            possa aplicar meus conhecimentos e habilidades técnicas para contribuir efetivamente com o
+            desenvolvimento e crescimento de ambas as partes.</p>
+        <p><strong>Formação Acadêmica:</strong></p>
+        <ul>
+            <li>Ensino Médio Completo</li>
+            <li>Cursos Profissionalizantes: Desenvolvimento Front-end, Desenvolvimento JavaScript (Udemy)</li>
+            <li>Técnico em Informática para Internet (SENAC)</li>
+        </ul>
+        <p><strong>Habilidades:</strong></p>
+        <ul>
+            <li>HTML, CSS, JavaScript, PHP, MySQL, React, TypeScript, entre outros</li>
+        </ul>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="container py-5">
+        <h2 class="section-title">Projetos</h2>
+        <div class="project-container">
+            <div class="project-item">
+                <div class="card">
+                    <img src="project1.jpg" class="project-img card-img-top" alt="Projeto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 1</h5>
+                        <p class="card-text">Descrição breve do projeto.</p>
+                        <a href="https://github.com/Diogo-MD" class="btn btn-primary">GitHub</a>
+                        <a href="https://seusite.com" class="btn btn-secondary">Site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="card">
+                    <img src="project2.jpg" class="project-img card-img-top" alt="Projeto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 2</h5>
+                        <p class="card-text">Descrição breve do projeto.</p>
+                        <a href="https://github.com/Diogo-MD" class="btn btn-primary">GitHub</a>
+                        <a href="https://seusite.com" class="btn btn-secondary">Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="container py-5">
+        <h2 class="section-title">Contato</h2>
+        <p><strong>Telefone:</strong> +55 (11) 963610224</p>
+        <p><strong>Email:</strong> diogomdossantos@gmail.com</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/Diogo-MD" target="_blank">https://github.com/Diogo-MD</a></p>
+    </section>
+
+    <!-- Link para o Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
